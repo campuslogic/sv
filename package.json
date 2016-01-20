@@ -1,0 +1,41 @@
+{
+  "name": "sv",
+  "version": "1.0.19",
+  "description": "StudentVerification utility",
+  "main": "./sv.js",
+  "bin": {
+    "sv": "./sv.js"
+  },
+  "preferGlobal": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manalotoj/sv.git"
+  },
+  "keywords": [
+    "SV",
+    "StudentVerification",
+    "ISIR",
+    "Corrections",
+    "Batch",
+    "Batches",
+    "Get",
+    "Retrieval",
+    "Upload"
+  ],
+  "author": "John Manaloto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manalotoj/sv/issues"
+  },
+  "homepage": "https://github.com/manalotoj/sv#readme",
+  "dependencies": {
+    "oauth-wrap": "=1.0.4",
+    "optimist": "^0.6.1",
+    "promise": "^7.0.4",
+    "sv-api": "^1.0.9",
+    "winston": "=1.0.x"
+  }
+}
